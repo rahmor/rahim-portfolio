@@ -41,3 +41,7 @@ section:nth-child(even) {
 ul {
   list-style-type: none;
 }
+
+li {
+  display: inline;
+}
