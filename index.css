@@ -22,6 +22,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
+  min-width: 400px;
 }
 
 header {
@@ -40,8 +41,21 @@ section:nth-child(even) {
 
 ul {
   list-style-type: none;
+  height: 2em;
 }
 
 li {
   display: inline;
+  margin: 1.5em;
+}
+
+.nav-name {
+  font-size: 2em;
+  float: left;
+}
+
+.nav-links {
+  float: right;
+  margin-right: 0.5em;
+  font-size: 1em;
 }
