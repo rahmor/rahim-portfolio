@@ -26,7 +26,7 @@ nav {
 }
 
 header {
-  padding: 12% 0;
+  padding: 8% 0% 5% 0%;
 }
 
 section {
@@ -112,4 +112,29 @@ span {
     display: inline-block;
     text-align: left;
   }
+}
+
+.pic-booth-section {
+  text-align: left;
+  margin: auto;
+}
+
+.pic-booth {
+  margin: auto;
+  height: 100%;
+  max-width: 700px;
+}
+
+.about-me {
+  display: inline-block;
+  min-width: 100%;
+}
+
+.photo-booth-pic {
+  display: inline-block;
+}
+
+.pic-booth .about-me span {
+  display: inline-block;
+  color: black;
 }
