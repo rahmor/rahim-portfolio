@@ -13,6 +13,7 @@
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="mobileindex.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
@@ -22,7 +23,7 @@
       <a href="https://github.com/rahmor">Github</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="dropDown()">
         <i class="fa fa-bars"></i>
       </a>
     </nav>
@@ -30,47 +31,73 @@
     <main role="main">
       <header role="banner">
         <h1>Hi, I'm Rahim Morgan</h1>
-        <h4>I'm a student in Thinkful's Immersive Engineering Bootcamp</h4>
       </header>
+
+      <section class="introduction" role="region">
+        <h4>I'm a student in Thinkful's Immersive Engineering Bootcamp</h4>
+        <p>I love traveling, sports, and pizza(who doesn't).</p>
+      </section>
 
       <section class="pic-booth-section" role="region">
         <div class="pic-booth">
           <div class="about-me">
             <img class="photo-booth-pic" alt="smile" src="images/intro1.jpg" />
-            <span>And a fullstack developer.</span>
+            <p>
+              I specialize in React, Express, Postgres, and Node.
+            </p>
           </div>
           <div class="about-me">
-            <img class="photo-booth-pic" alt="passion" src="images/passion.jpg" />
-            <span>I have a passion for clean, DRY, and starched code.</span>
+            <img
+              class="photo-booth-pic"
+              alt="passion"
+              src="images/passion.jpg"
+            />
+            <p>I have a passion for clean, DRY, and starched code.</p>
           </div>
           <div class="about-me">
-            <img class="photo-booth-pic" alt="giving pause" src="images/pause.jpg" />
-            <span>Wait! That sound like I work at the cleaners.</span>
+            <img
+              class="photo-booth-pic"
+              alt="giving pause"
+              src="images/pause.jpg"
+            />
+            <p>Wait! That sounds like I work at the cleaners.</p>
           </div>
           <div class="about-me">
-            <img class="photo-booth-pic" alt="realizition" src="images/realize.jpg" />
-            <span>Am I really just doing laundry for computers?</span>
+            <img
+              class="photo-booth-pic"
+              alt="realizition"
+              src="images/realize.jpg"
+            />
+            <p>Am I really just doing laundry for computers?</p>
           </div>
           <div class="about-me">
             <img class="photo-booth-pic" alt="shock" src="images/shock.jpg" />
-            <span>OMG! They're in charge.</span>
+            <p>OMG! They're in charge.</p>
           </div>
         </div>
       </section>
-      <section>
 
       <section id="portfolio" role="region">
         <img alt="coming soon" src="images/coming_soon.jpeg" />
         <p>
-          Multi-choice quiz app. HTML, CSS, and custom render library provided by <span><a href="https://thinkful.com">@thinkful</a></span>
+          Multi-choice quiz app. HTML, CSS, and custom render library provided
+          by <span><a href="https://thinkful.com">@thinkful</a></span>
         </p>
-        <a href="https://github.com/rahmor/rahim-portfolio">Github</a> | <a href="">Live Site--Coming Soon</a>
+        <a href="https://github.com/rahmor/rahim-portfolio">Github</a> |
+        <a href="">Live Site--Coming Soon</a>
       </section>
     </main>
     <footer id="contact" role="content-info">
       <p>
         Feel free to contact me at
         <a href="mailto:rahmor@yahoo.com">rahmor@yahoo.com</a>
+      </p>
+      <p>
+        Or check me out at
+        <a href="https://www.linkedin.com/in/rahim-morgan-a60a16b5/"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/rahmor">Github</a>
       </p>
     </footer>
     <script
