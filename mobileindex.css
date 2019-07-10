@@ -36,7 +36,7 @@ header {
 
 section {
   min-height: 200px;
-  /* padding: 6% 0; */
+  padding-bottom: 6%;
 }
 
 section:nth-child(odd) {
@@ -58,7 +58,7 @@ h1 {
 .topnav a.icon {
   float: right;
   display: block;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
 .topnav.responsive {
@@ -100,6 +100,10 @@ h1 {
 
 .pic-booth .about-me p {
   display: block;
+  color: black;
+}
+
+footer p {
   color: black;
 }
 
