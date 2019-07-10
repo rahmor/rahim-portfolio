@@ -6,7 +6,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+      href="http://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
     />
     <link
       rel="stylesheet"
@@ -18,8 +18,12 @@
   <body>
     <nav role="navigation" class="topnav" id="myTopnav">
       <span id="name">Rahim Morgan</span>
-      <a href="https://www.linkedin.com/in/rahim-morgan-a60a16b5/">LinkedIn</a>
-      <a href="https://github.com/rahmor">Github</a>
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/rahim-morgan-a60a16b5/"
+        >LinkedIn</a
+      >
+      <a target="_blank" href="https://github.com/rahmor">Github</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="dropDown()">
@@ -28,17 +32,17 @@
     </nav>
 
     <main role="main">
-      <header role="banner">
+      <header class="intro-header" role="banner">
         <h1>Hi, I'm Rahim Morgan</h1>
       </header>
 
       <section class="introduction" role="region">
         <h4>I'm a student in Thinkful's Immersive Engineering Bootcamp</h4>
         <p>
-          I love traveling, sports, and pizza(who doesn't). Love most things
-          nerd: GOT, LOTR, but not into LARP or D&D...yet. Looking to work with
-          a highly collaborative team on projects where the results can be
-          physically touched by users.
+          I'm Looking to work with a highly collaborative team on projects where
+          the results can be physically touched by users. I love traveling,
+          sports, and pizza(who doesn't). Love most things nerd: GOT, LOTR, but
+          not into LARP or D&D...yet.
         </p>
       </section>
 
@@ -82,26 +86,36 @@
       </section>
 
       <section id="portfolio" role="region">
-        <img alt="coming soon" src="images/coming_soon.jpeg" />
+        <h2>Projects</h2>
+        <img alt="coming soon" src="images/RXOLanding.png" />
         <p>
-          Multi-choice quiz app. HTML, CSS, and custom render library provided
-          by <a href="https://thinkful.com">@thinkful</a>
+          Full-stack web app for prescription scheduling built with React,
+          Node/Express, and PostgreSQL.
         </p>
-        <a href="https://github.com/rahmor/rahim-portfolio">Github</a> |
-        <a href="">Live Site--Coming Soon</a>
+        <a target="_blank" href="https://github.com/rahmor/rxo-client"
+          >Github Client</a
+        >
+        |
+        <a target="_blank" href="https://github.com/rahmor/rxo-api"
+          >Github Api</a
+        >
+        |
+        <a target="_blank" href="https://rxo-app.rahmor.now.sh/">Live Site</a>
       </section>
     </main>
     <footer id="contact" role="content-info">
       <p>
         Feel free to contact me at
-        <a href="mailto:rahmor@yahoo.com">rahmor@yahoo.com</a>
+        <a target="_blank" href="mailto:rahmor@yahoo.com">rahmor@yahoo.com</a>
       </p>
       <p>
         Or check me out at
-        <a href="https://www.linkedin.com/in/rahim-morgan-a60a16b5/"
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/rahim-morgan-a60a16b5/"
           >LinkedIn</a
         >
-        <a href="https://github.com/rahmor">Github</a>
+        <a target="_blank" href="https://github.com/rahmor">Github</a>
       </p>
     </footer>
     <script

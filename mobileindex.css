@@ -31,12 +31,12 @@ nav {
 }
 
 header {
-  padding: 8% 0% 5% 0%;
+  padding: 8% 0% 0% 0%;
 }
 
 section {
   min-height: 200px;
-  padding: 6% 0;
+  /* padding: 6% 0; */
 }
 
 section:nth-child(odd) {
@@ -75,6 +75,10 @@ h1 {
   text-align: right;
 }
 
+.intro-header {
+  margin-bottom: 0;
+}
+
 .pic-booth-section {
   margin: auto;
 }
@@ -99,7 +103,7 @@ h1 {
   color: black;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 930px) {
   /* Style the links inside the navigation bar */
   .topnav a,
   span {
