@@ -182,4 +182,8 @@ footer p {
     margin-bottom: 0px;
     margin-top: 0px;
   }
+
+  .projects-section {
+    margin-bottom: 2em;
+  }
 }
