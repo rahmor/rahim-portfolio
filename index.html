@@ -24,8 +24,8 @@
         >LinkedIn</a
       >
       <a target="_blank" href="https://github.com/rahmor">Github</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
+      <a href="#portfolio" onclick="dropDown()">Portfolio</a>
+      <a href="#contact" onclick="dropDown()">Contact</a>
       <a href="javascript:void(0);" class="icon" onclick="dropDown()">
         <i class="fa fa-bars"></i>
       </a>
@@ -87,20 +87,55 @@
 
       <section id="portfolio" role="region">
         <h2>Projects</h2>
-        <img alt="coming soon" class="responsive" src="images/RXOLanding.png" />
-        <p>
-          Full-stack web app for prescription scheduling built with React,
-          Node/Express, and PostgreSQL.
-        </p>
-        <a target="_blank" href="https://github.com/rahmor/rxo-client"
-          >Github Client</a
-        >
-        |
-        <a target="_blank" href="https://github.com/rahmor/rxo-api"
-          >Github Api</a
-        >
-        |
-        <a target="_blank" href="https://rxo-app.rahmor.now.sh/">Live Site</a>
+        <div class="projects-section">
+          <img
+            alt="rx on time landing page"
+            class="responsive"
+            src="images/RXOLanding.png"
+            style="max-width:650px"
+          />
+          <p>
+            RXO is a full-stack web app for prescription scheduling built with
+            React, Node/Express, and PostgreSQL.
+          </p>
+          <a target="_blank" href="https://github.com/rahmor/rxo-client"
+            >Github Client</a
+          >
+          |
+          <a target="_blank" href="https://github.com/rahmor/rxo-api"
+            >Github Api</a
+          >
+          |
+          <a target="_blank" href="https://rxo-app.rahmor.now.sh/">Live Site</a>
+        </div>
+        <div class="projects-section">
+          <img
+            alt="Youtube database channel page"
+            class="responsive"
+            src="images/YTDB-Channel.png"
+            style="max-width:650px"
+          />
+          <p>
+            YTDB utilizes the YOUTUBE API in combination with PostgreSQL on the
+            backend and React on the front end to create a full-stack channel
+            rating site.
+          </p>
+          <a
+            target="_blank"
+            href="https://github.com/thinkful-ei-cheetah/YTDB-Client"
+            >Github Client</a
+          >
+          |
+          <a
+            target="_blank"
+            href="https://github.com/thinkful-ei-cheetah/YTDB-Server"
+            >Github Api</a
+          >
+          |
+          <a target="_blank" href="https://ytdb-client.jonathanlassen.now.sh/"
+            >Live Site</a
+          >
+        </div>
       </section>
     </main>
     <footer id="contact" role="content-info">
