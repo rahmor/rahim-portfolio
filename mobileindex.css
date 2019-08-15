@@ -168,7 +168,15 @@ footer p {
 
   .about-me {
     display: block;
+    position: relative;
     min-width: 100%;
+  }
+
+  .caption {
+    position:absolute;
+    left: 5px;
+    top: 50%;
+    color: black;
   }
 
   .photo-booth-pic {
@@ -180,13 +188,13 @@ footer p {
     border-color: white;
   }
 
-  .pic-booth .about-me p {
+  /*.pic-booth .about-me p {
     display: inline-block;
     margin-left: 100px;
-    color: black;
+    
     margin-bottom: 0px;
     margin-top: 0px;
-  }
+  }*/
 
   .projects-section {
     margin-bottom: 2em;
