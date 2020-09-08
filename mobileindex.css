@@ -133,7 +133,8 @@ footer p {
   }
 
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .topnav a,
+  .topnav.responsive a {
     float: right;
     display: block;
     color: #f2f2f2;
