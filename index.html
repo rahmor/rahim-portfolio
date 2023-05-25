@@ -71,16 +71,35 @@
     <section id="portfolio" role="region">
       <h2>Projects</h2>
       <div class="projects-section">
-        <img alt="bundler landing" class="responsive" src="images/bundler1.png" style="max-width: 650px" />
-        <img alt="bundler channel picking" class="responsive" src="images/bundler2.png" style="max-width: 650px" />
+        <div class="project-responsive-image-container">
+          <img alt="bundler landing" class="project-responsive-images project-responsive-margin" 
+          src="images/large-images/bundler1.png"
+          srcset="images/large-images/bundler1.png 1589w, images/mobile-images/bundler1.png 397w"
+          />
+          <img alt="bundler channel picking" 
+          class="project-responsive-images" 
+          src="images/large-images/bundler2.png"
+          srcset="images/large-images/bundler2.png 1589w, images/mobile-images/bundler2.png 400w"
+          />
+      </div>
         <p>
           Bundler is a channel picking site built with React and react-boostrap.
         </p>
         <a target="_blank" href="https://github.com/rahmor/bundler-client">Github Client</a>
       </div>
       <div class="projects-section">
-        <img alt="RabbitHole icon image" class="responsive" src="images/rabbit-hole.jpg"
-          style="max-width: 650px; max-height:365px;" />
+        <div class="project-responsive-image-container">
+          <img alt="RabbitHole icon image" 
+          class="project-responsive-images project-responsive-margin" 
+          src="images/large-images/rabbit-hole.jpg"
+          srcset="images/large-images/rabbit-hole.jpg 728w, images/mobile-images/rabbit-hole.jpg 364w"
+          />
+          <img alt="RabbitHole icon screenshot" 
+          class="project-responsive-images" 
+          src="images/large-images/rabbit-hole2.png"
+          srcset="images/large-images/rabbit-hole2.png 1589w, images/mobile-images/rabbit-hole2.png 397w"
+          />
+      </div>
         <p>
           Rabbit Hole is a time saving tool that allows you clip a timeframe of your
           browser history and save it as a bookmark folder for later review.
@@ -90,7 +109,11 @@
         <a target="_blank" href="https://github.com/rahmor/rabbit-hole">Github</a>
       </div>
       <div class="projects-section">
-        <img alt="weatherly interface" class="responsive" src="images/weatherly2-full.png" style="max-width: 650px" />
+        <img alt="weatherly interface" 
+        class="project-responsive-images" 
+        src="images/large-images/weatherly2-full.png"
+        srcset="images/large-images/weatherly2-full.png 1282w, images/mobile-images/weatherly2-full.png 321w"
+        />
 
         <p>
           Weatherly is a React weather app that uses the OpenWeatherMap api

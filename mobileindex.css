@@ -107,9 +107,9 @@ h1 {
   color: black;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+.project-responsive-margin {
+  margin-bottom: 5px;
+  margin-right: 0px;
 }
 
 footer p {
@@ -191,5 +191,20 @@ footer p {
   .projects-section {
     margin-bottom: 2em;
     margin-top: 2em;
+  }
+
+  .project-responsive-images {
+    width: 100%;
+    height: auto;
+    max-width: 460px;
+ 
+  }
+  
+  .project-responsive-margin {
+    margin-right: 5px;
+    margin-bottom: 0px;
+  }
+  .project-responsive-image-container {
+    display: inline-flex;
   }
 }
