@@ -107,6 +107,10 @@ h1 {
   color: black;
 }
 
+.project-responsive-images {
+  max-width: 100%;
+}
+
 .project-responsive-margin {
   margin-bottom: 5px;
   margin-right: 0px;
@@ -197,7 +201,6 @@ footer p {
     width: 100%;
     height: auto;
     max-width: 460px;
- 
   }
   
   .project-responsive-margin {
@@ -206,5 +209,10 @@ footer p {
   }
   .project-responsive-image-container {
     display: inline-flex;
+  }
+
+  p {
+    max-width:950px;
+    margin: auto;
   }
 }
